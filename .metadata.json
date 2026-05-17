@@ -1476,29 +1476,16 @@
         "commands/commit.md": "sha256:d1b1984908d57664975291e53ba879851dff925d59ef3eb5d206e603591439fa"
       }
     },
-    "context-mode/configs/openclaw": {
-      "source": "~/claude-plugins/claude-mem/openclaw",
+    "context-mode": {
+      "source": "~/claude-plugins/context-mode/skills/context-mode",
       "type": "local",
-      "group": "context-mode/configs",
-      "installed_at": "2026-05-16T18:32:56.5607454-07:00",
+      "installed_at": "2026-05-16T18:35:04.603068-07:00",
       "file_hashes": {
-        ".gitignore": "sha256:790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910",
-        ".npmignore": "sha256:4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
-        "Dockerfile.e2e": "sha256:579a2a1dc288559f54363d8058ff1f3460073659c9d6e1ae44c00eb970bfbc22",
-        "SKILL.md": "sha256:acf93a8d913a24e3180c4bb9ff6cf28903a207b0fe0dc0f830f9a34378f0381f",
-        "TESTING.md": "sha256:40f78c4c068cd050011c7d8364bcf3e366e4da865571adf69b7055ccfb997a8b",
-        "e2e-verify.sh": "sha256:f3b0d97769c1800351a778b89424a4719bc4c280028abf148704b97eba5af740",
-        "install.sh": "sha256:5aa43a6235c91539ba3f2592b375dcaf4a030098485d060d256076c2d56659ee",
-        "openclaw.plugin.json": "sha256:8197eb6f507968e708e0a3540c4bca75fd02c55bb05f53b2288da6553be693a8",
-        "package.json": "sha256:001c6d12e06e5c551897b4fc63f6bc7fad816e089f7f0907ef0a3f558dfaef89",
-        "skills/do/SKILL.md": "sha256:993ea03d417bb8ddcc32b62f2a09408a06a6a71889466046fb05ebc0ec9a994a",
-        "skills/make-plan/SKILL.md": "sha256:0fa76b0362a51d6b50cd3be3e2c746ceb8c8b9933fcf679c0119136f65478219",
-        "src/index.test.ts": "sha256:bc02bf03194df63bc57bf3fc3ae16ccede78801b60c6e521699c185f18308710",
-        "src/index.ts": "sha256:a74a56575aa9398ae227ae50b4458d2ebdbf8b840cb5cbfab317641fbafe821a",
-        "test-e2e.sh": "sha256:146ee4b7507e7488796e422c1d26838c33ac3d5f5ec79ab10a690cd768b53ade",
-        "test-install.sh": "sha256:756e49c1a659315e0abb04b0cae613a5c0016a27d88de7bc905e894b023deac4",
-        "test-sse-consumer.js": "sha256:5e77e90664a9a493c38fb670f88d9a1e428e2ef9538bee4aebc3fb5680a8bae6",
-        "tsconfig.json": "sha256:0fe0caed34e5daf2ec9cc5f2566f18135f35cd06c15d2ee41606059efb4cfc1b"
+        "SKILL.md": "sha256:414d8a13d0810413d45f85f9b2e3efe067b4eab296071f8a092df8f0a8ed1a5f",
+        "references/anti-patterns.md": "sha256:30cc8e7c9d61eb6e0094dc3712120c27298ecf9808aebefcf8dfac17bf7346d8",
+        "references/patterns-javascript.md": "sha256:e0e6e6d17d2df8d93cff0922fb42b21382328d3d14a9bc32f62f0b3f127fc723",
+        "references/patterns-python.md": "sha256:8d76144c9e812a54c884b815f526fea85179839fcc70b205bfde1e757ae95fec",
+        "references/patterns-shell.md": "sha256:34be33127c296b273e03cf1d8c373c57083e160a1a2ac3876dca010c74689877"
       }
     },
     "cowork-plugin-management": {
@@ -1525,6 +1512,46 @@
       "file_hashes": {
         "LICENSE": "sha256:3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
         "README.md": "sha256:9a847fc6e65b27feef7098243529081953be17865d638387820a369a6649d849"
+      }
+    },
+    "ctx-doctor": {
+      "source": "~/claude-plugins/context-mode/skills/ctx-doctor",
+      "type": "local",
+      "installed_at": "2026-05-16T18:35:05.1103845-07:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:874de5d079a4df1e88b87715678f28296332645e600b464d5592725829d82e2c"
+      }
+    },
+    "ctx-insight": {
+      "source": "~/claude-plugins/context-mode/skills/ctx-insight",
+      "type": "local",
+      "installed_at": "2026-05-16T18:35:05.565661-07:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:4e40c0c12f4da3b30ce582dd49a7957349b2fd3634a665312c2f5d9fc7cb4056"
+      }
+    },
+    "ctx-purge": {
+      "source": "~/claude-plugins/context-mode/skills/ctx-purge",
+      "type": "local",
+      "installed_at": "2026-05-16T18:35:06.1324817-07:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:1961df70dcdd82f556c1c5219a40359632f807a0c6720a150d96a30e86c6bddc"
+      }
+    },
+    "ctx-stats": {
+      "source": "~/claude-plugins/context-mode/skills/ctx-stats",
+      "type": "local",
+      "installed_at": "2026-05-16T18:35:06.5969823-07:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:3babe498983749f769a39f3635be8685efb56a36c0fa2f520c53dbb81dda1da6"
+      }
+    },
+    "ctx-upgrade": {
+      "source": "~/claude-plugins/context-mode/skills/ctx-upgrade",
+      "type": "local",
+      "installed_at": "2026-05-16T18:35:07.0588657-07:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:e9c0d55a31172ad943135c450bc26386b3d9ac0341d108cf20e79a040e9f8903"
       }
     },
     "customer-support": {
